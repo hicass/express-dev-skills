@@ -6,3 +6,10 @@ const skills = [
     {id:415329, skill: 'Express'}
 ];
 
+module.exports = {
+    getAll
+}
+
+function getAll() {
+    return skills;
+}
