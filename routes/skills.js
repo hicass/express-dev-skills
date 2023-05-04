@@ -12,6 +12,8 @@ router.get('/:id', skillsCtrl.show);
 router.get('/:id/edit', skillsCtrl.edit);
 // POST /skills
 router.post('/', skillsCtrl.create);
+// PUT /skills
+router.put('/:id', skillsCtrl.update);
 // DELETE /skills/:id
 router.delete('/:id', skillsCtrl.delete);
 
