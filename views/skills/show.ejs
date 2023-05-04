@@ -1,5 +1,6 @@
 <%- include('../partials/header') %>
 <h3><%= skill.skill %></h3>
+<a href="/skills/<%= skill.id %>/edit">Edit Skill</a>
 <form 
     action="/skills/<%= skill.id %>?_method=DELETE"
     method="POST"
@@ -7,5 +8,4 @@
     >
     <button type="submit">Remove</button>
 </form>
-<a href="/skills/edit">Edit Skill</a>
 <%- include('../partials/footer') %>
