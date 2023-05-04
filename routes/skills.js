@@ -10,7 +10,8 @@ router.get('/new', skillsCtrl.new);
 router.get('/:id', skillsCtrl.show)
 // POST /skills
 router.post('/', skillsCtrl.create)
-// DELETE /skill/:id
+// DELETE /skills/:id
 router.delete('/:id', skillsCtrl.delete)
+// GET /skills/:id/edit
 
 module.exports = router;
