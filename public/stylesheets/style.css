@@ -1,4 +1,5 @@
 body {
+  background-color: rgb(10, 10, 29);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,10 +8,39 @@ body {
   font-family: 'Source Code Pro', monospace; 
 }
 
+nav {
+  background-color: rgb(212, 229, 248);
+  width: 100%;
+  color: white;
+}
+
+#main-container {
+  background-color: white;
+  height: 90vmin;
+  width: 80vmin;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 5vmin;
+}
+
 h3 {
+  margin-top: 5vmin;
   font-size: 6vmin;
 }
 
 a {
-  color: #00B7FF;
+  color: #5baccf;
+}
+
+#add-skill {
+  font-size: 3vmin;
+  color: #acacac;
+}
+
+button {
+  font-family: 'Source Code Pro', monospace; 
 }
